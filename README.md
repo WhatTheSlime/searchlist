@@ -4,9 +4,8 @@ Simple tool to retreive wordlists quickly
 
 ## Install
 
-1. Clone the repository
+1. Clone the repository and go inside
 ```bash
-$ git clone ...
 $ cd searchlist
 ```
 
@@ -15,10 +14,10 @@ $ cd searchlist
 $ python3 -m pip install -r requirements.txt
 ```
 
-3. Edit the configuration file
+3. Edit the configuration file (`searchlist.cfg`)
 ```cfg
 [Extensions]
-# Files extension white list for research:
+# Files extension white list:
 ; .ext
 .txt
 .lst
@@ -29,7 +28,7 @@ $ python3 -m pip install -r requirements.txt
 ; /another/path/to/wordlists/directory
 ```
 
-4. Alias it
+4. Make an alias
 ```bash
 $ alias searchlist="python3 /path/to/searchlist/searchlist.py"
 ```
